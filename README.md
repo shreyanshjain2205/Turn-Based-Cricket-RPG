@@ -49,3 +49,15 @@ score of player 1 during the match, the match
 is over, and player 2 wins. If player 2 fails to
 do so, player 1 wins the game.
 The name of the winner is then displayed.
+
+VALIDATION AND CHECKS
+I have made many validations and checks to the
+project:
+When asking for a team name, if the name the user
+enters is not in the given list of teams, the user creates
+a custom team with that name and is the program
+proceeds to ask names of the 11 players from the user.
+When asking the user for the command, if the
+command is not from (8/9/0), the program repeatedly
+asks the user for a command until the command is
+from (8/9/0)
